@@ -12,7 +12,7 @@ follow, each representing a test case. Each test case gives s and d,
 non-negative integers representing the sum and (absolute) difference between the two final scores.
 Output
 For each test case, output a line giving the two final scores, largest first. If there are no such scores,
-output a line containing “impossible”. Recall that football scores are always non-negative integers.
+output a line containing â€œimpossibleâ€. Recall that football scores are always non-negative integers.
 
 Sample Input
 2
@@ -46,7 +46,7 @@ void input() {
 		scanf("%d %d", &sum, &diff);
 		a = (sum + diff)	/	2;
 		b = (sum - diff)	/	2;
-		if (b >= 0 && (sum + diff) % 2 ==0)
+		if (b >= 0 && a % 2 ==0)
 		{
 			printf("%d %d\n", a,b);
 		}
