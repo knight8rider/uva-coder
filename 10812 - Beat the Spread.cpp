@@ -46,7 +46,7 @@ void input() {
 		scanf("%d %d", &sum, &diff);
 		a = (sum + diff)	/	2;
 		b = (sum - diff)	/	2;
-		if (b >= 0 && a % 2 ==0)
+		if (b >= 0 && (sum + diff) % 2 ==0)
 		{
 			printf("%d %d\n", a,b);
 		}
